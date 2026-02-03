@@ -1,0 +1,1358 @@
+
+
+ :root {
+  --blue-primary: #0877BE;
+  --orange-secondary: #F5821F;
+  --dark-orange: #FF7600;
+  --dark-blue: #034DA2;
+}
+ .margin-buttom-para{
+   margin-bottom: 1rem;
+ }
+  .margin-buttom-section{
+   margin-bottom: 4rem;
+ }
+   .margin-right-section{
+   margin-right: 3rem;
+ }
+
+/* fonts */
+html body {
+  font-family: 'Gilroy', sans-serif !important;
+}
+body h2{
+  font-size: 35px !important;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'gilroy';
+  src: url('../fonts/Gilroy-Regular.ttf') format('woff2');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroy';
+  src: url('../fonts/Gilroy-Bold.ttf') format('woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.ttf') format('woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Bold.ttf') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.mt-100{
+  margin-bottom: 100px;
+}
+ /* CTA BUTTON */
+ .call-back-btn-main{
+    padding: 20px 20px;
+    background-color: var(--dark-orange);
+    border-radius: 7px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 15px;
+    border: none!important;
+}
+
+.call-back-btn-main a{
+  color: #fff;
+
+  text-decoration: none !important;
+}
+ .call-back-btn-accademic{
+    padding: 20px 20px;
+    background-color: var(--dark-orange);
+    border-radius: 7px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 15px;
+}
+.call-back-btn-accademic img{
+  width: 30px;
+}
+.download-btn {
+    font-size: 23px;
+    font-weight: 400;
+    background-color: var(--dark-blue);
+    padding: 14px 27px;
+    border-radius: 10px;
+    text-align: center !important;
+    margin-top: 13px;
+}
+.download-btn-orang {
+    font-size: 23px;
+    font-weight: 400;
+    background-color: var(--dark-orange);
+    padding: 14px 27px;
+    border-radius: 10px;
+    text-align: center !important;
+    margin-top: 13px;
+
+}
+
+ .download-btn a{
+   text-decoration: none !important;
+    color:white !important;
+     font-size: 20px;
+    }
+
+  .download-btn-orang a {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 20px;
+  }
+   .accademin-btns img {
+    width: 27px !important;
+    margin-right: 5px;
+}
+ .callnow-btn {
+    font-size: 23px;
+    font-weight: 400;
+    background-color: white;
+    padding: 14px 27px;
+    border-radius: 10px;
+    text-align: center !important;
+    margin-top: 13px;
+}
+
+ .callnow-btn a{
+   text-decoration: none !important;
+    color: #343434;
+      font-size: 20px;
+ }
+.accademin-btns{
+  display: flex;
+  justify-content: center !important;
+  gap: 16px;
+  margin-top: 50px !important;
+}
+ .hero {
+      /* min-height: 80vh; */
+      width: 100%;
+      background: url("../img/final-bnr-narayana.webp");
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    .main-heading{
+       font-size: 45px;
+       font-weight: 700;
+    }
+    .heading-name{
+      font-size: 30px;
+      color: white;
+      font-weight: 600;
+      margin-top: 88px;
+    }
+    .highlight {
+      color: #ffeb3b;
+    }
+    .counter-num{
+    font-size: 38px;
+    font-weight: 400;
+
+    }
+    .counter-text{
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .points-text{
+      font-size: 20px;
+    }
+
+    /* .stats h2 {
+      color: #ffeb3b;
+      font-weight: bold;
+    } */
+     .list-unstyled{
+      margin-bottom: 50px !important;
+     }
+    .cta-text {
+    font-size: 23px;
+    font-weight: 500;
+    }
+    .cta-btn-main {
+      font-family: 'Gilroy';
+      background-color: #ff8c1a;
+      color: white;
+      border: none;
+      padding: 20px 60px;
+      border-radius: 8px;
+      font-size: 18px;
+      display: flex;
+    }
+    .call-icon{
+      margin-right: 10px;
+    }
+    .cta-btn:hover {
+      background-color: #e67600;
+    }
+    .card-li li::marker{
+      color: var(--blue-primary);
+    }
+   .text-slider-sec ul{
+    list-style: none !important;
+   }
+    .text-slider-sec li{
+      color: white;
+      display: flex;
+   }
+    .text-slider-sec li img{
+      margin-right: 10px;
+      margin-bottom: 5px;
+   }
+.logo-img img{
+  width: 20%;
+  margin-top: 20px;
+  margin-right: 88px;
+}
+.logo-img{
+  display: flex;
+  justify-content: right;
+}
+.enquiry-form {
+    background: #ff8c2b;
+    padding: 25px;
+    width: 100%;
+    max-width: 415px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.enquiry-form h3 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.enquiry-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px !important;
+}
+
+.enquiry-form input,
+.enquiry-form select {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px !important;
+}
+.call-icon img{
+font-size: 18px;
+margin-right: 10px;
+}
+.call-icon {
+font-size: 21px;
+}
+.enquiry-form button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #0a4ea3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  gap: 15px;
+}
+
+
+.enquiry-form button:hover {
+  background: #083b7c;
+}
+
+    /* kids cards section................. */
+    .mobile-carasol-section{
+      display: none;
+    }
+    .kids-card-title {
+      font-weight: 700;
+      font-size: 35px;
+    }
+    .kids-card-subtitle {
+      color: #555;
+      max-width: 800px;
+      margin: auto;
+    }
+    .program-card {
+      border-radius: 18px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+    .program-card:hover {
+      transform: translateY(-6px);
+    }
+    .card-header-custom {
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+    }
+    .card-name{
+      font-size: 25px;
+      margin-bottom: 0px !important;
+    }
+    .classes{
+       font-size: 20px;
+    }
+    .orange {
+      background: #ff8c1a;
+    }
+    .blue {
+      background: #0b6db7;
+    }
+    .card-txt-heading {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #212121;
+    margin-left: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+  .program-card img {
+    width: 100%;
+    height: 239px;
+    object-fit: cover;
+    margin-top: -39px;
+}
+
+    .kids-card-body{
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    .card-body h6 {
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .kids-card-body ul li {
+      margin-bottom: 10px;
+      font-size: 16px;
+
+    }
+    .know-more {
+      display: block;
+      text-align: center;
+      margin: 15px 0;
+      color: #0b6db7;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  .cta-btn {
+   background: #ff8c1a;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 16px 56px;
+    font-size: 4px;
+    border-radius: 0px;
+    align-items: center;
+    position: absolute;
+    bottom: 26px;
+    left: 0px;
+}
+  .btn-text{
+    font-size: 15px;
+    margin-bottom: 0px !important;
+  }
+
+  /* Card base */
+.program-card {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+  height: 105% !important;
+}
+.card-img-sec{
+  background-color:#F5821F;
+}
+.card-img-sec-2   {
+  background-color:#0877BE;
+}
+/* Lift card on hover */
+.program-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.15);
+}
+
+.card-buttons {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+
+}
+.btn-call img{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  margin-top: 2px;
+}
+.btn-know img{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  margin-top: 2px;
+}
+
+.card-buttons a {
+  flex: 1;
+  padding: 14px 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.btn-call {
+  background: #ff8c2b;
+  display: flex;
+}
+
+.btn-know {
+  background: var(--blue-primary);
+  display: flex;
+}
+
+/* optional hover */
+.btn-call:hover {
+  background: #e87718;
+}
+
+.btn-know:hover {
+  background: #083b7c;
+}
+
+
+/* CTA button initial state (hidden) */
+/* .program-card .cta-btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -60px;
+  opacity: 0;
+  transition: all 0.4s ease;
+  border-radius: 0 0 18px 18px;
+} */
+
+/* Button pop-up on hover */
+/* .program-card:hover .cta-btn {
+  bottom: 0;
+  opacity: 1;
+} */
+
+/* Push content slightly up when hovered */
+.program-card:hover .card-body {
+  padding-bottom: 70px;
+  transition: padding 0.4s ease;
+}
+
+/* Optional: smooth image zoom */
+/* .program-card img {
+  transition: transform 0.4s ease;
+  overflow: hidden;
+}
+
+.program-card:hover img {
+  transform: scale(1.05);
+  overflow: hidden;
+} */
+
+ /* <!-- booking section................. */
+ .booking-each-section{
+  display: flex;
+ }
+ .booking-icon-img{
+  margin-right: 10px;
+ }
+  .info-strip {
+      background: #f9f9f9;
+      border-radius: 40px;
+      padding: 25px 15px;
+    }
+    .info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      padding: 15px 25px;
+      height: 100%;
+    }
+    .info-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: #e8f2ff;
+      color: #0b6db7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .info-item h6 {
+       font-weight: 500;
+       margin-bottom: 5px;
+       font-size: 24px;
+    }
+    .info-item p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 0;
+    }
+  /* why choose narayana scl............ */
+
+  .why-section {
+      padding: 60px 0;
+      background: #fff;
+    }
+
+    .why-title {
+      font-weight: 700;
+      font-size: 35px;
+    }
+
+    .why-subtitle {
+      color: #555;
+      margin-top: 8px;
+      margin-bottom: 50px;
+    }
+
+    .why-card {
+      text-align: center;
+      padding: 20px 15px;
+    }
+
+    .why-icon {
+      width: 70px;
+      height: 70px;
+      background: #fff3e6;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      font-size: 28px;
+      color: #ff8c1a;
+    }
+
+    .why-card h6 {
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .why-card p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+    .accademic-heading{
+      text-align: center;
+      font-size: 25px;
+      color: var(--orange-secondary);
+      margin-bottom: 55px;
+    }
+    .accademic-heading-blue{
+      text-align: center;
+      font-size: 25px;
+      color: var(--dark-blue);
+      margin-bottom: 55px;
+    }
+    .accademin-heading-two{
+      text-align: center;
+      font-size: 25px;
+      color: var(--orange-secondary);
+    }
+   .number {
+    border-radius: 69%;
+    color: #F5821F;
+    padding: 6px 6px;
+    border: #F5821F 2px dotted;
+    width: 10%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #FFE1CA;
+    margin-right: 17px;
+    margin-top: -12px;
+    margin-bottom: 13px;
+  }
+  .bg-color {
+    background-color: #FFF5ED;
+    padding: 45px 68px;
+    border-radius: 20px;
+   }
+  .academic-section-content{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  /* accademic excellence section start*/
+
+/* .left-img-accademic {
+    margin-left: 76px;
+} */
+
+.bg-colour-orang{
+  background-color:var(--dark-orange);
+   padding: 65px 80px;
+  border-radius: 20px;
+}
+.ekidz-card ul {
+  padding-left: 18px;
+}
+
+.ekidz-card li {
+  margin-bottom: 6px;
+}
+.ekidz-section {
+  background: #ff8c2b;
+  padding: 40px 20px;
+}
+.right-text-accademic {
+    width: 100%;
+}
+.accademic-icon img{
+width: 10%;
+}
+.ekidz-card{
+  background:var(--dark-orange);
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+.ekidz-card-blue{
+  background:var(--dark-blue);
+  border-radius: 20px;
+  padding: 65px 80px;
+}
+.accademic-main-heading h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+.accademic-sec-heading {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+  .right-text-accademic ul{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+.icon-list {
+  list-style: none;
+  padding-left: 0;
+}
+.icon-list li {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+
+.icon-list img {
+    width: 18px;
+    margin-top: 9px;
+}
+
+  /* accademic eccellence section end */
+  .accademic-section{
+    margin-bottom: 100px;
+  }
+  .accademin-heading{
+  display: flex;
+  margin-left: 10px;
+  }
+  .accademin-heading-dot{
+  color: #000 !;
+  }
+
+  .learning-dot li::marker {
+  color: var(--orange-secondary);
+  }
+  .learning-dot-blue li::marker {
+  color: var(--dark-blue);
+  }
+  .right-side-img{
+    width: 99%;
+}
+
+
+  .bg-color-blue{
+   background-color: #F2F7FF;
+   padding: 45px 68px;
+   border-radius: 20px;
+  }
+
+   .number-blue {
+    border-radius: 69%;
+    color: var(--dark-blue);
+    padding: 6px 6px;
+    border: var(--dark-blue) 2px dotted;
+    width: 10%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #CAE3FF;
+    margin-right: 17px;
+    margin-top: -12px;
+    margin-bottom: 13px;
+  }
+
+.narayana-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  width: 100%;
+  height: 4px;
+  background: #0877BE;
+  z-index: -1;
+  display: none;
+}
+
+/* Card layout */
+.narayana-card {
+  display: flex;
+  gap: 14px;
+  padding: 26px 22px;
+  border-radius: 18px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* Default hover */
+.narayana-card:hover {
+  background: #f5f5f5;
+}
+
+/* First card light gray by default */
+.narayana-card.active {
+  background: #f5f5f5;
+}
+
+/* Icon */
+.check-icon {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Text */
+.narayana-card h6 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--dark-blue);
+  margin-bottom: 6px;
+}
+
+.narayana-card p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+  background: #00b300;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.mobile-carasol-section{
+  display: none;
+}
+
+.accademic-carasol{
+background-color: var(--dark-orange);
+border-radius: 20px;
+padding: 20px;
+}
+
+.accademic-carasol ul{
+padding-left: 10px;
+}
+.accademic-carasol-blue{
+background-color: var(--dark-blue);
+border-radius: 20px;
+padding: 20px;
+}
+
+.accademic-carasol-blue ul{
+padding-left: 10px;
+}
+.carasol-icon-accademic {
+    width: 14% !important;
+    height: 11% !important;
+}
+.carasol-icon-accademic ul{
+text-align: left;
+padding-left: 10px;
+text-align: justify;
+}
+.accademic-carasol h3{
+  text-align: justify;
+}
+.accademic-carasol-blue h3 {
+    text-align: justify;
+}
+.carasol-list-accademic{
+width: 5% !important;
+}
+.download-btn-carasol button{
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: var(--dark-blue);
+  border: none !important;
+  display: flex;
+}
+.download-btn-carasol img {
+    width: 13% !important;
+    height: 20px;
+}
+.download-btn-carasol-blue button{
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: var(--dark-orange);
+  border: none !important;
+  display: flex;
+}
+.download-btn-carasol-blue img {
+    width: 13% !important;
+    height: 20px;
+}
+.call-btn-carasol button{
+    border-radius: 10px;
+    padding: 11px 20px;
+    background-color: white;
+    color: #212121;
+    border: none !important;
+    display: flex;
+    width: 89%;
+}
+.carasol-lower-portion{
+   align-items: center;
+   justify-content: space-between;
+}
+.call-btn-carasol img{
+      width: 11% !important;
+    height: 24px;
+}
+.text{
+  text-align: left;
+}
+/* result section css........ */
+
+
+.results-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.results-subtitle {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.student-card {
+  padding: 30px;
+}
+
+.student-card img {
+  object-fit: cover;
+  border-radius: 18px;
+  margin: 0 auto 15px;
+}
+
+.student-card h6 {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+
+.marks {
+    font-size: 36px;
+    font-weight: 400;
+    color:var(--dark-blue);
+}
+
+.student-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+/* SIDE ARROWS */
+.nav-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 100px;
+  color: var(--dark-blue);
+  z-index: 10;
+  font-weight: lighter;
+}
+
+.left-arrow {
+    left: -16px;
+}
+
+.right-arrow {
+  right: -17px;
+}
+
+
+.campus-section {
+  background: #ffffff;
+}
+
+.campus-card img {
+    width: 96%;
+    height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+
+.campus-card h5 {
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: 6px;
+}
+.campus-card p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/* reviwe section............. */
+
+.testimonial-section {
+  background: #fff;
+}
+.bg-color-testi{
+  background-color: #d9d9d956;
+  padding: 85px 29px;
+  border-radius: 20px;
+}
+/* Card */
+.testimonial-card {
+  border: 1.5px solid #f5821f;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: left;
+  background: #fff;
+  height: 100%;
+  width: 92%;
+}
+
+/* User */
+.user {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #fff3e6;
+  color: #f5821f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user h6 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.user small {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Text */
+.testimonial-card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 14px;
+}
+
+/* Stars */
+.stars {
+  color: #ffb703;
+  font-size: 14px;
+}
+
+/* Bottom arrows */
+.testimonial-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.testimonial-nav button {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #f5821f;
+}
+
+
+/* accordian section............ */
+.accordion-button {
+    background-color: var(--dark-blue)!important;
+    color: #fff !important;
+}
+.bg-blue-accordian{
+  background-color: #F2F7FF;
+  padding: 39px 62px;
+}
+.accordion-item {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+/* Section */
+.enquiry-section {
+  padding: 40px 20px;
+}
+.student-img{
+  width: 95%;
+}
+
+/* Container */
+.enquiry-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: stretch;
+}
+
+/* LEFT */
+.left-box {
+  flex: 1;
+  color: #fff;
+}
+
+.image-box {
+  background: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+}
+
+.left-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.left-text.bold {
+  font-weight: 600;
+}
+
+ /* from section................ */
+.bg-img {
+  object-fit: cover;
+  z-index: 0;
+  opacity: 1;
+}
+section .container {
+  z-index: 2;
+}
+
+.download-btn-white {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: white;
+    padding: 9px 3px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center !important;
+    margin-top: 26px;
+}
+.download-btn-white a{
+text-decoration: none !important;
+color: rgb(53, 53, 53) !important;
+}
+.download-btn-white img {
+    width: 21px !important;
+    height: 20px;
+}
+.bg-blue-from{
+  background-color: var(--dark-blue);
+}
+.accademin-froms{
+  padding: 10px 20px !important;
+}
+.bg-blue-from h2 {
+    font-size: 29px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 20px 23px 0px 10px;
+}
+.bg-blue-from {
+  margin-top: 32px;
+}
+.btn-primary{
+  background-color: var(--orange-secondary) !important;
+  gap: 16px;
+  justify-content: center;
+}
+.btn-primary img{
+  width: 20px;
+}
+.last-from-section p {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-top: 21px;
+    padding-left: 7px;
+}
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .enquiry-container {
+    flex-direction: column;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+  }
+}
+/* MOBILE */
+@media (max-width: 768px) {
+  .mobile-carasol-section{
+    display: block;
+  }
+  .accademic-section{
+    display: none;
+  }
+  .mt-100{
+  margin-bottom: 30px;
+}
+  body h2 {
+    font-size: 28px !important;
+    text-align: left;
+}
+  body h3{
+    font-size: 24px !important;
+  }
+    body h4{
+    font-size: 20px !important;
+  }
+    body p{
+    font-size: 16px !important;
+    text-align: left;
+  }
+  body ul{
+    font-size: 14px !important;
+  }
+   body a{
+    font-size: 16px !important;
+  }
+.hero {
+    background-position: top left;
+    background-size: auto;
+}
+.logo-img img {
+  width: 90%;
+  margin-top: 20px;
+  margin-right: 0px;
+}
+.logo-img {
+    display:block;
+    justify-content: center;
+    text-align: center;
+}
+.heading-name {
+    margin-top: 50px;
+}
+.call-icon {
+    font-size: 23px
+}
+.call-icon {
+    margin-right: 0px
+}
+.cta-btn-main {
+    padding: 11px 17px
+  }
+.cta-btn-main{
+  display: none;
+}
+.enquiry-form {
+  margin-top: 0px;
+}
+.off {
+    display: none;
+}
+  .accademin-btns img {
+    width: 20px !important;
+  }
+.download-btn-orang {
+    font-size: 20px;
+    padding: 11px 27px;
+}
+   .download-btn {
+    font-size: 20px;
+    padding: 12px 1px;
+}
+.callnow-btn {
+    font-size: 20px;
+    padding: 12px 24px;}
+
+.icon-list img {
+    width: 16px;
+    margin-top: 2px;
+    margin-right: 0px;
+}
+  .why-section {
+  padding: 0px 0;
+    }
+.accademin-btns {
+ display: block;
+}
+.bg-colour-orang {
+    padding: 23px 19px
+}
+.ekidz-card-blue{
+    padding: 23px 19px
+}
+.bg-blue-accordian {
+    padding: 0px 0px;
+}
+.student-img {
+  width: 100%;
+  margin-top: 60px;
+}
+.last-from-section p {
+   font-size: 19px !important;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-top: 1px;
+    padding-left: 7px;
+    text-align: left;
+    align-items: center;
+    }
+
+.narayana-card {
+ padding: 5px 38px;
+}
+.right-arrow {
+    right: -24px;
+}
+.left-arrow {
+    left: -23px;
+}
+.download-btn-white {
+    width: 59%;
+}
+.testimonial-card {
+  width: 100%;
+}
+.campus-card img {
+    width: 100%;
+}
+.student-card p {
+  text-align: center !important;
+  }
+  .bg-color-testi {
+    background-color: #d9d9d956;
+    padding: 23px 26px;
+  }
+  .why-icon {
+    margin: 0 0px 13px;
+  }
+.accademic-sec-heading img {
+  margin-right: 6px;
+  margin-left: -6px;
+} .accademic-icon img {
+  margin-top: 15px;
+  width: 15%;
+}
+.why-card {
+  text-align: left;
+  padding: 0px 16px;
+}
+.why-icon{
+ align-items: flex-start;
+}
+.card-buttons a {
+    padding: 14px 11px;
+}
+.card-buttons img{
+width: 20% !important;
+}
+.mobile-carasol-section{
+    display: block;
+}
+.desktop-card-section{
+display: none;
+}
+}
+/* Vertical divider (desktop only) */
+ @media (min-width: 992px) {
+      .divider {
+        border-right: 1px solid #ddd;
+      }
+    .result-sec-btn {
+    /* margin-left: 130px; */
+    text-align: center;
+    /* width: 30%; */
+}
+
+}
