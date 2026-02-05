@@ -52,20 +52,21 @@ body h2{
   margin-bottom: 100px;
 }
  /* CTA BUTTON */
- .call-back-btn-main{
-    padding: 20px 20px;
+.call-back-btn-main {
+    padding: 11px 0px;
     background-color: var(--dark-orange);
     border-radius: 7px;
     align-items: center;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 500;
     gap: 15px;
-    border: none!important;
-}
-
+    border: none !important;
+    width: 19%;
+}.call-back-btn-main img {
+    width: 12%;
+  }
 .call-back-btn-main a{
   color: #fff;
-
   text-decoration: none !important;
 }
  .call-back-btn-accademic{
@@ -139,7 +140,7 @@ body h2{
  .hero {
       /* min-height: 80vh; */
       width: 100%;
-      background: url("../img/final-bnr-narayana.webp");
+      background: url("../img/bvanner.webp");
       position: relative;
       background-size: cover;
       background-position: center;
@@ -188,19 +189,16 @@ body h2{
     font-size: 23px;
     font-weight: 500;
     }
-    .cta-btn-main {
-      font-family: 'Gilroy';
-      background-color: #ff8c1a;
-      color: white;
-      border: none;
-      padding: 20px 60px;
-      border-radius: 8px;
-      font-size: 18px;
-      display: flex;
-    }
-    .call-icon{
-      margin-right: 10px;
-    }
+.cta-btn-main {
+    font-family: 'Gilroy';
+    background-color: #ff8c1a;
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+}
     .cta-btn:hover {
       background-color: #e67600;
     }
@@ -257,12 +255,12 @@ body h2{
   outline: none;
   font-size: 16px !important;
 }
-.call-icon img{
-font-size: 18px;
-margin-right: 10px;
+.call-icon img {
+  width: 30px;
+   margin-right: 10px;
 }
 .call-icon {
-font-size: 21px;
+  font-size: 21px;
 }
 .enquiry-form button {
   margin-top: 10px;
@@ -296,6 +294,10 @@ font-size: 21px;
       margin: auto;
     }
     .program-card {
+      height: 560px;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
       border-radius: 18px;
       overflow: hidden;
       background: #fff;
@@ -341,6 +343,8 @@ font-size: 21px;
     .kids-card-body{
       padding-right: 20px;
       padding-left: 20px;
+      flex: 1;
+      padding: 8px;
     }
 
     .card-body h6 {
@@ -380,19 +384,23 @@ font-size: 21px;
 
   /* Card base */
 .program-card {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   border-radius: 18px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: all 0.4s ease;
-  height: 105% !important;
+  height:690px!important;
+  border: black solid 1px;
 }
 .card-img-sec{
   background-color:#F5821F;
+   flex-shrink: 0;
 }
 .card-img-sec-2   {
   background-color:#0877BE;
+   flex-shrink: 0;
 }
 /* Lift card on hover */
 .program-card:hover {
@@ -404,6 +412,7 @@ font-size: 21px;
   display: flex;
   width: 100%;
   overflow: hidden;
+  height: 52px;
 
 }
 .btn-call img{
@@ -423,7 +432,7 @@ font-size: 21px;
   flex: 1;
   padding: 14px 10px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   text-decoration: none;
   color: #fff;
@@ -432,60 +441,28 @@ font-size: 21px;
   justify-content: center;
   gap: 6px;
 }
-
+.btn-warp{
+    padding: 0 0px 37px;
+}
 .btn-call {
   background: #ff8c2b;
   display: flex;
 }
-
 .btn-know {
   background: var(--blue-primary);
   display: flex;
 }
-
 /* optional hover */
 .btn-call:hover {
   background: #e87718;
 }
-
 .btn-know:hover {
   background: #083b7c;
 }
-
-
-/* CTA button initial state (hidden) */
-/* .program-card .cta-btn {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -60px;
-  opacity: 0;
-  transition: all 0.4s ease;
-  border-radius: 0 0 18px 18px;
-} */
-
-/* Button pop-up on hover */
-/* .program-card:hover .cta-btn {
-  bottom: 0;
-  opacity: 1;
-} */
-
-/* Push content slightly up when hovered */
 .program-card:hover .card-body {
   padding-bottom: 70px;
   transition: padding 0.4s ease;
 }
-
-/* Optional: smooth image zoom */
-/* .program-card img {
-  transition: transform 0.4s ease;
-  overflow: hidden;
-}
-
-.program-card:hover img {
-  transform: scale(1.05);
-  overflow: hidden;
-} */
 
  /* <!-- booking section................. */
  .booking-each-section{
@@ -844,6 +821,7 @@ width: 5% !important;
   background-color: var(--dark-blue);
   border: none !important;
   display: flex;
+  width: 68%;
 }
 .download-btn-carasol img {
     width: 13% !important;
@@ -855,6 +833,7 @@ width: 5% !important;
   background-color: var(--dark-orange);
   border: none !important;
   display: flex;
+  width: 67%;
 }
 .download-btn-carasol-blue img {
     width: 13% !important;
@@ -867,15 +846,15 @@ width: 5% !important;
     color: #212121;
     border: none !important;
     display: flex;
-    width: 89%;
+    width: 68%;
 }
 .carasol-lower-portion{
    align-items: center;
    justify-content: space-between;
 }
-.call-btn-carasol img{
-      width: 11% !important;
-    height: 24px;
+.call-btn-carasol img {
+    width: 13% !important;
+    height: 21px;
 }
 .text{
   text-align: left;
@@ -987,6 +966,9 @@ width: 5% !important;
   height: 100%;
   width: 92%;
 }
+.testimonial-section h2{
+margin-bottom: 40px;
+}
 
 /* User */
 .user {
@@ -997,14 +979,15 @@ width: 5% !important;
 }
 
 .avatar {
-  width: 40px;
-  height: 40px;
-  background: #fff3e6;
-  color: #f5821f;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 49px;
+    height: 47px;
+    background: #fff3e6;
+    color: #f5821f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 8px;
 }
 
 .user h6 {
@@ -1059,13 +1042,25 @@ width: 5% !important;
     background-color: transparent;
     border: none;
 }
+.accordion-button::after {
+    background-image: url(../img/arrow-circle-down.png) !important;
+    background-size: 30px 28px !important;
+    width: 57px !important;
+    height: 27px !important;
+    background-position: center !important;
+   background-repeat: no-repeat !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg) !important;   /* rotate when open */
+}
 
 /* Section */
 .enquiry-section {
   padding: 40px 20px;
 }
 .student-img{
-  width: 95%;
+  width: 85%;
 }
 
 /* Container */
@@ -1081,6 +1076,7 @@ width: 5% !important;
 .left-box {
   flex: 1;
   color: #fff;
+
 }
 
 .image-box {
@@ -1124,6 +1120,7 @@ section .container {
     width: 40%;
     text-align: center !important;
     margin-top: 26px;
+    margin-bottom: 20px;
 }
 .download-btn-white a{
 text-decoration: none !important;
@@ -1147,6 +1144,7 @@ color: rgb(53, 53, 53) !important;
 }
 .bg-blue-from {
   margin-top: 32px;
+  margin-bottom: 18px;
 }
 .btn-primary{
   background-color: var(--orange-secondary) !important;
@@ -1154,14 +1152,14 @@ color: rgb(53, 53, 53) !important;
   justify-content: center;
 }
 .btn-primary img{
-  width: 20px;
+  width: 33px;
 }
 .last-from-section p {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     margin-bottom: 0px;
-    padding-top: 21px;
-    padding-left: 7px;
+    padding-top: 0px;
+    padding-left: 0px;
 }
 /* RESPONSIVE */
 @media (max-width: 991px) {
@@ -1185,6 +1183,10 @@ color: rgb(53, 53, 53) !important;
   .mt-100{
   margin-bottom: 30px;
 }
+  body h1 {
+    font-size: 35px !important;
+    text-align: left;
+}
   body h2 {
     font-size: 28px !important;
     text-align: left;
@@ -1199,8 +1201,8 @@ color: rgb(53, 53, 53) !important;
     font-size: 16px !important;
     text-align: left;
   }
-  body ul{
-    font-size: 14px !important;
+    body li{
+    font-size: 16px !important;
   }
    body a{
     font-size: 16px !important;
@@ -1210,8 +1212,8 @@ color: rgb(53, 53, 53) !important;
     background-size: auto;
 }
 .logo-img img {
-  width: 90%;
-  margin-top: 20px;
+  width: 70%;
+  margin-top: 15px;
   margin-right: 0px;
 }
 .logo-img {
@@ -1220,7 +1222,7 @@ color: rgb(53, 53, 53) !important;
     text-align: center;
 }
 .heading-name {
-    margin-top: 50px;
+  margin-top: 26px
 }
 .call-icon {
     font-size: 23px
@@ -1234,8 +1236,11 @@ color: rgb(53, 53, 53) !important;
 .cta-btn-main{
   display: none;
 }
+.call-back-btn-main{
+ width: 60%;
+}
 .enquiry-form {
-  margin-top: 0px;
+  margin-top: -29px;
 }
 .off {
     display: none;
@@ -1273,7 +1278,7 @@ color: rgb(53, 53, 53) !important;
     padding: 23px 19px
 }
 .bg-blue-accordian {
-    padding: 0px 0px;
+    padding: 25px 0px;
 }
 .student-img {
   width: 100%;
@@ -1304,6 +1309,12 @@ color: rgb(53, 53, 53) !important;
 .testimonial-card {
   width: 100%;
 }
+.testimonial-section h2{
+margin-bottom: 20px;
+}
+.why-subtitle {
+    margin-bottom: 18px;
+}
 .campus-card img {
     width: 100%;
 }
@@ -1326,7 +1337,7 @@ color: rgb(53, 53, 53) !important;
 }
 .why-card {
   text-align: left;
-  padding: 0px 16px;
+  padding: 0px 25px;
 }
 .why-icon{
  align-items: flex-start;
