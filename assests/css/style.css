@@ -51,6 +51,61 @@ body h2{
 .mt-100{
   margin-bottom: 100px;
 }
+.sticky-icon {
+    position: fixed;
+    top: 55%;
+    right: 1%;
+    z-index: 999;
+}
+.icon-box {
+    background-color: #25D366;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.apply {
+  z-index: 999;
+    position: fixed;
+    bottom: 50%;
+    rotate: 90deg;
+    left: -3%;
+}
+.appli {
+    padding: 13px 30px;
+}
+.appli{
+    background-color: var(--dark-blue);
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.applys{
+  display: none;
+}
+.sticky-footer{
+  display: none;
+}
+.call-box{
+  background-color: var(--dark-orange) !important;
+}
+.fees-stucture {
+    position: fixed;
+    bottom: 60%;
+    rotate: 90deg;
+    background-color: var(--dark-blue);
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    right: -57px;
+}
+.fees-stucture a{
+  text-decoration: none !important;
+  color: white !important;
+}
+
  /* CTA BUTTON */
 .call-back-btn-main {
     padding: 11px 0px;
@@ -61,10 +116,8 @@ body h2{
     font-weight: 500;
     gap: 15px;
     border: none !important;
-    width: 19%;
-}.call-back-btn-main img {
-    width: 12%;
-  }
+      width: 39%;
+}
 .call-back-btn-main a{
   color: #fff;
   text-decoration: none !important;
@@ -194,7 +247,7 @@ body h2{
     background-color: #ff8c1a;
     color: white;
     border: none;
-    padding: 20px 60px;
+    padding: 10px 55px;
     border-radius: 8px;
     font-size: 18px;
     display: flex;
@@ -211,6 +264,7 @@ body h2{
     .text-slider-sec li{
       color: white;
       display: flex;
+      text-align: left;
    }
     .text-slider-sec li img{
       margin-right: 10px;
@@ -256,13 +310,13 @@ body h2{
   font-size: 16px !important;
 }
 .call-icon img {
-  width: 30px;
+  width: 25px;
    margin-right: 10px;
 }
 .call-icon {
   font-size: 21px;
 }
-.enquiry-form button {
+.from-download-btn {
   margin-top: 10px;
   padding: 10px;
   background: #0a4ea3;
@@ -274,10 +328,16 @@ body h2{
   font-weight: 600;
   gap: 15px;
 }
-
-
-.enquiry-form button:hover {
+.from-download-btn:hover {
   background: #083b7c;
+}
+.download-icon img {
+    width: 21px;
+    margin-right: 5px;
+    margin-top: -4px;
+}
+.download-icon{
+  font-size: 18px;
 }
 
     /* kids cards section................. */
@@ -391,7 +451,7 @@ body h2{
   background: #fff;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: all 0.4s ease;
-  height:690px!important;
+  height: 800px !important;
   border: black solid 1px;
 }
 .card-img-sec{
@@ -417,7 +477,7 @@ body h2{
 }
 .btn-call img{
   width: 18px;
-  height: 18px;
+  height: 20px;
   object-fit: contain;
   margin-top: 2px;
 }
@@ -783,6 +843,7 @@ width: 10%;
 background-color: var(--dark-orange);
 border-radius: 20px;
 padding: 20px;
+height: 950px;
 }
 
 .accademic-carasol ul{
@@ -792,6 +853,7 @@ padding-left: 10px;
 background-color: var(--dark-blue);
 border-radius: 20px;
 padding: 20px;
+height: 950px;
 }
 
 .accademic-carasol-blue ul{
@@ -813,7 +875,8 @@ text-align: justify;
     text-align: justify;
 }
 .carasol-list-accademic{
-width: 5% !important;
+  width: 7% !important;
+  height: 20px !important;
 }
 .download-btn-carasol button{
   border-radius: 10px;
@@ -846,60 +909,52 @@ width: 5% !important;
     color: #212121;
     border: none !important;
     display: flex;
-    width: 68%;
+    width: 95%;
 }
 .carasol-lower-portion{
    align-items: center;
    justify-content: space-between;
 }
 .call-btn-carasol img {
-    width: 13% !important;
-    height: 21px;
+    width: 9% !important;
+    height: 23px;
 }
 .text{
   text-align: left;
 }
 /* result section css........ */
-
-
 .results-title {
   font-weight: 700;
   margin-bottom: 10px;
 }
-
 .results-subtitle {
   color: #555;
   margin-bottom: 40px;
 }
-
 .student-card {
   padding: 30px;
 }
-
 .student-card img {
   object-fit: cover;
   border-radius: 18px;
   margin: 0 auto 15px;
 }
-
 .student-card h6 {
   font-weight: 600;
   margin-bottom: 6px;
   font-size: 22px;
 }
-
 .marks {
     font-size: 36px;
     font-weight: 400;
     color:var(--dark-blue);
 }
-
 .student-card p {
   font-size: 16px;
   color: #666;
 }
-
-
+ .call-back-btn-main img{
+  width: 25px; }
 /* SIDE ARROWS */
 .nav-arrow {
   position: absolute;
@@ -912,16 +967,12 @@ width: 5% !important;
   z-index: 10;
   font-weight: lighter;
 }
-
 .left-arrow {
     left: -16px;
 }
-
 .right-arrow {
   right: -17px;
 }
-
-
 .campus-section {
   background: #ffffff;
 }
@@ -945,9 +996,7 @@ width: 5% !important;
   color: #666;
   margin-bottom: 0;
 }
-
 /* reviwe section............. */
-
 .testimonial-section {
   background: #fff;
 }
@@ -977,7 +1026,6 @@ margin-bottom: 40px;
   align-items: center;
   margin-bottom: 14px;
 }
-
 .avatar {
     width: 49px;
     height: 47px;
@@ -989,31 +1037,26 @@ margin-bottom: 40px;
     justify-content: center;
     padding: 8px 8px;
 }
-
 .user h6 {
   margin: 0;
   font-size: 14px;
   font-weight: 600;
 }
-
 .user small {
   font-size: 12px;
   color: #777;
 }
-
 /* Text */
 .testimonial-card p {
   font-size: 14px;
   color: #444;
   margin-bottom: 14px;
 }
-
 /* Stars */
 .stars {
   color: #ffb703;
   font-size: 14px;
 }
-
 /* Bottom arrows */
 .testimonial-nav {
   display: flex;
@@ -1026,8 +1069,6 @@ margin-bottom: 40px;
   font-size: 28px;
   color: #f5821f;
 }
-
-
 /* accordian section............ */
 .accordion-button {
     background-color: var(--dark-blue)!important;
@@ -1143,16 +1184,16 @@ color: rgb(53, 53, 53) !important;
     padding: 20px 23px 0px 10px;
 }
 .bg-blue-from {
-  margin-top: 32px;
-  margin-bottom: 18px;
+    margin-top: 63px;
+    margin-bottom: 80px;
 }
 .btn-primary{
   background-color: var(--orange-secondary) !important;
-  gap: 16px;
+  gap: 5px;
   justify-content: center;
 }
 .btn-primary img{
-  width: 33px;
+  width: 25px;
 }
 .last-from-section p {
     font-size: 22px;
@@ -1161,8 +1202,19 @@ color: rgb(53, 53, 53) !important;
     padding-top: 0px;
     padding-left: 0px;
 }
+.btn-close {
+    position: absolute;
+    right: 23%;
+    top: 3%;
+    z-index: 1000;
+    width: 24px !important;
+    height: 22px !important;
+    padding: 6px !important;
+    background-color: bisque !important;
+}
+
 /* RESPONSIVE */
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .enquiry-container {
     flex-direction: column;
   }
@@ -1171,7 +1223,7 @@ color: rgb(53, 53, 53) !important;
   .right-box {
     width: 100%;
   }
-}
+} */
 /* MOBILE */
 @media (max-width: 768px) {
   .mobile-carasol-section{
@@ -1207,9 +1259,68 @@ color: rgb(53, 53, 53) !important;
    body a{
     font-size: 16px !important;
   }
+  .sticky-icon{
+    display: none;
+  }
+
+  .applys {
+    display: block;
+    z-index: 999;
+    position: fixed;
+    bottom: 50%;
+    rotate: 90deg;
+    right: -20%;
+}
+.appli {
+  padding: 7px 25px;
+   background-color: #f5821f;
+   color: #fff;
+   cursor: pointer;
+   font-size: 18px;
+   border-radius: 10px;
+  }
+.apply{
+  display: none;
+}
+  .fes {
+   background-color: var(--blue-primary);
+   color: #fff;
+   cursor: pointer;
+   font-size: 16px;
+   padding: 10px 20px;
+  }
+ .footer-btn {
+  flex: 1;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: var(--orange-secondary);
+  }
+  .sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, .2);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  }
+.footer-btn.phone{
+ background-color: #0975bd;
+}
+.footer-btn.whatsapp {
+background-color: var(--blue-primary);
+}
 .hero {
-    background-position: top left;
-    background-size: auto;
+  background-position: top left;
+  background-size: auto;
 }
 .logo-img img {
   width: 70%;
@@ -1237,11 +1348,29 @@ color: rgb(53, 53, 53) !important;
   display: none;
 }
 .call-back-btn-main{
- width: 60%;
+ width: 93%;
 }
 .enquiry-form {
   margin-top: -29px;
 }
+/* overlay */
+.popup-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 99999;
+}
+
+/* center the form */
+.popup-overlay .enquiry-form {
+  background: #fff;
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .off {
     display: none;
 }
@@ -1335,6 +1464,10 @@ margin-bottom: 20px;
   margin-top: 15px;
   width: 15%;
 }
+.call-back-btn-main img{
+    width: 20px;
+  }
+
 .why-card {
   text-align: left;
   padding: 0px 25px;
@@ -1354,16 +1487,13 @@ width: 20% !important;
 .desktop-card-section{
 display: none;
 }
-}
-/* Vertical divider (desktop only) */
- @media (min-width: 992px) {
-      .divider {
-        border-right: 1px solid #ddd;
-      }
-    .result-sec-btn {
-    /* margin-left: 130px; */
-    text-align: center;
-    /* width: 30%; */
+.btn-close {
+    right: 7%;
+    top: 4%;
 }
 
+.bg-blue-from {
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
 }
