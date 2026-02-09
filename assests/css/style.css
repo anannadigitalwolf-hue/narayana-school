@@ -79,6 +79,7 @@ body h2{
     cursor: pointer;
     font-size: 18px;
     border-radius: 10px;
+    box-shadow: 0 2px 19px rgba(130, 200, 243, 0.45), 0 2px 6px rgba(1, 38, 68, 0.15);
 }
 .applys{
   display: none;
@@ -89,6 +90,7 @@ body h2{
 .call-box{
   background-color: var(--dark-orange) !important;
 }
+
 .fees-stucture {
     position: fixed;
     bottom: 60%;
@@ -105,8 +107,24 @@ body h2{
   text-decoration: none !important;
   color: white !important;
 }
-
+.mobile-header{
+ display: none;
+}
+.header-desktop{
+  display: block;
+}
+/* .header{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+} */
+/* .logo-img img{
+width: 300px;
+height: 100px;
+} */
  /* CTA BUTTON */
+
 .call-back-btn-main {
     padding: 11px 0px;
     background-color: var(--dark-orange);
@@ -116,7 +134,7 @@ body h2{
     font-weight: 500;
     gap: 15px;
     border: none !important;
-      width: 39%;
+    width: 100%;
 }
 .call-back-btn-main a{
   color: #fff;
@@ -278,6 +296,7 @@ body h2{
 .logo-img{
   display: flex;
   justify-content: right;
+  width: 85%;
 }
 .enquiry-form {
     background: #ff8c2b;
@@ -300,7 +319,6 @@ body h2{
   flex-direction: column;
   gap: 16px !important;
 }
-
 .enquiry-form input,
 .enquiry-form select {
   padding: 10px 14px;
@@ -359,7 +377,7 @@ body h2{
       flex-direction: column;
       background: #fff;
       border-radius: 18px;
-      overflow: hidden;
+      /* overflow: hidden; */
       background: #fff;
       box-shadow: 0 8px 20px rgba(0,0,0,0.08);
       transition: transform 0.3s;
@@ -451,7 +469,7 @@ body h2{
   background: #fff;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: all 0.4s ease;
-  height: 800px !important;
+  height: 712px !important;
   border: black solid 1px;
 }
 .card-img-sec{
@@ -1322,11 +1340,28 @@ background-color: var(--blue-primary);
   background-position: top left;
   background-size: auto;
 }
-.logo-img img {
-  width: 70%;
-  margin-top: 15px;
-  margin-right: 0px;
+.mobile-header{
+    background-color: #fff;
+    position: sticky;
+    top:  0px;
+    z-index: 9999;
 }
+.mobile-header{
+  display: block;
+}
+.header-desktop{
+  display: none;
+}
+/* .logo-img img{
+width: 300px;
+height: 100px;
+} */
+.logo-img img {
+width: 62%;
+margin-top: 0px;
+margin-right: 0px;
+height: 61px;
+  }
 .logo-img {
     display:block;
     justify-content: center;
@@ -1353,24 +1388,6 @@ background-color: var(--blue-primary);
 .enquiry-form {
   margin-top: -29px;
 }
-/* overlay */
-.popup-overlay {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
-  z-index: 99999;
-}
-
-/* center the form */
-.popup-overlay .enquiry-form {
-  background: #fff;
-  max-width: 420px;
-  margin: 60px auto;
-  padding: 20px;
-  border-radius: 10px;
-}
-
 .off {
     display: none;
 }
@@ -1422,7 +1439,9 @@ background-color: var(--blue-primary);
     text-align: left;
     align-items: center;
     }
-
+.program-card {
+  height: 650px !important;
+  }
 .narayana-card {
  padding: 5px 38px;
 }
@@ -1485,7 +1504,7 @@ width: 20% !important;
     display: block;
 }
 .desktop-card-section{
-display: none;
+display: none !important;
 }
 .btn-close {
     right: 7%;
@@ -1497,3 +1516,4 @@ display: none;
     margin-bottom: 80px;
 }
 }
+
