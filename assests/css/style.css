@@ -134,7 +134,7 @@ height: 100px;
     font-weight: 500;
     gap: 15px;
     border: none !important;
-    width: 100%;
+    width: 36%;
 }
 .call-back-btn-main a{
   color: #fff;
@@ -579,7 +579,7 @@ height: 100px;
        font-size: 24px;
     }
     .info-item p {
-      font-size: 14px;
+      font-size: 16px;
       color: #555;
       margin-bottom: 0;
     }
@@ -888,9 +888,12 @@ text-align: justify;
 }
 .accademic-carasol h3{
   text-align: justify;
+  font-weight: 900;
+
 }
 .accademic-carasol-blue h3 {
     text-align: justify;
+    font-weight: 900;
 }
 .carasol-list-accademic{
   width: 7% !important;
@@ -982,7 +985,7 @@ text-align: justify;
   border: none;
   font-size: 100px;
   color: var(--dark-blue);
-  z-index: 10;
+  z-index: 6;
   font-weight: lighter;
 }
 .left-arrow {
@@ -1057,23 +1060,23 @@ margin-bottom: 40px;
 }
 .user h6 {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 .user small {
-  font-size: 12px;
+  font-size: 16px;
   color: #777;
 }
 /* Text */
 .testimonial-card p {
-  font-size: 14px;
+  font-size: 16px;
   color: #444;
   margin-bottom: 14px;
 }
 /* Stars */
 .stars {
   color: #ffb703;
-  font-size: 14px;
+  font-size: 16px;
 }
 /* Bottom arrows */
 .testimonial-nav {
@@ -1084,7 +1087,7 @@ margin-bottom: 40px;
 .testimonial-nav button {
   background: none;
   border: none;
-  font-size: 28px;
+  font-size: 72px;
   color: #f5821f;
 }
 /* accordian section............ */
@@ -1344,7 +1347,7 @@ background-color: var(--blue-primary);
     background-color: #fff;
     position: sticky;
     top:  0px;
-    z-index: 9999;
+    z-index: 9;
 }
 .mobile-header{
   display: block;
@@ -1385,9 +1388,9 @@ height: 61px;
 .call-back-btn-main{
  width: 93%;
 }
-.enquiry-form {
+/* .enquiry-form {
   margin-top: -29px;
-}
+} */
 .off {
     display: none;
 }
