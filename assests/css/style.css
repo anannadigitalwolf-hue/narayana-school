@@ -1520,3 +1520,8 @@ display: none !important;
 }
 }
 
+@media (max-width: 767px) {
+   .list-unstyled{
+      margin-bottom: 0px !important;
+     }
+}
